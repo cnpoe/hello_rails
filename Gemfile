@@ -49,7 +49,7 @@ group :development do
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'guard', '~> 2.15', '>= 2.15.1'
-  gem 'guard-livereload', '~> 2.5', '>= 2.5.2'
+  gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
 end
 
 group :test do
